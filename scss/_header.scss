@@ -1,0 +1,98 @@
+header{
+    width: 100%;
+    height: 882px;
+    background: var(--palet-32, #71D);
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 80px;
+        .header_container{
+        .header_text-content{
+            max-width: 590px;
+            margin-left: 120px;
+            h1{
+                color: var(--main-white, #FFF);
+                font-family: Permanent Marker;
+                font-size: 70px;
+                font-weight: 400;
+                line-height: 75.5px;
+                letter-spacing: 2px;
+                margin-bottom: 30px;
+                // max-width: 890px;
+            }
+            p{
+                color: var(--main-white, #FFF);
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0.45px;
+                max-width: 720px;
+            }
+            .btn_content{
+                display: flex;
+                gap: 15px;
+                margin-top: 50px;
+                .button{
+                    img{
+                        width: 25px;
+                        margin-left: 31px;
+                    }
+                    width: 189px;
+                    height: 46.843px;
+                    border: 2px solid;
+                    border-bottom: solid 5px;
+                    background-color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-right: 32px;
+                    gap: 9px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                p{
+                        color: var(--main-black, #1C1C1D);
+                        font-size: 16px;
+                        font-weight: 900;
+                        letter-spacing: 0.45px;
+                    }
+                }
+            }
+        }
+    }
+    nav{
+        padding-top: 19px;
+        margin-bottom: 182px;
+            .nav__content{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding-left: 121px;
+            padding-right: 120px;
+            .logo{
+                cursor: pointer;
+            }
+            .nav__menu{
+                display: flex;
+                align-items: center;
+                ul{
+                    display: flex;
+                    gap: 22px;
+                    margin-right: 23px;
+            }
+                .menu{
+                    margin-left: 23px;
+                    width: 49px;
+                    height: 47.5px;
+                    background-color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: solid 2px;
+                    border-radius: 50px 45px 55px 50px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

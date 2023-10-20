@@ -1,0 +1,219 @@
+@media (max-width:600px) {
+    header{
+        background-image: none;
+        nav{
+            .nav__content{
+                .logo{
+                    margin-right: 20px;
+                }
+                padding-left: 32px;
+                padding-right: 44px;
+                .nav__menu{
+                    .menu{
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+        .header_container{
+            .header_text-content{
+                margin: 0;
+                margin-left: 15px;
+                h1{
+                    font-size: 60px;
+                }
+                p{
+                    font-size: 14px;
+                }
+                    .btn_content{
+                        .button{
+                            width: 139px;
+                            height: 46.843px;
+                            margin: 0;
+                            img{
+                                margin-left: 5px;
+                            }
+                            p{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+// ========================================================================
+
+
+main{
+    .about_container{
+        .img_content{
+            flex-direction: column;
+            .img1{
+                width: 300px;
+                height: 163px;
+                .bottom{
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .info{
+            padding-left: 10px;
+        }
+    }
+
+    .radio{
+        margin-bottom: 150px;
+    }
+
+    .stories_container{
+        margin-bottom: 150px;
+        h1{
+            font-size: 35px;
+        }
+        .stories_content{
+            flex-direction: column;
+            padding-right: 10px;
+            padding-left: 10px;
+            align-items: center;
+        }
+    }
+
+    .form_container{
+        flex-direction: column;
+        align-items: center;
+        .form_text-content{
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+            .btn_content{
+                gap: 35px;
+                .button{
+                    width: 135px;
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.plan_container{
+    .head{
+        padding-left: 15px;
+    }
+
+    h1{
+        padding-left: 15px;
+    }
+    .plan_cards{
+        flex-direction: column;
+    }
+}
+
+footer{
+    flex-direction: column;
+    .footer_container{
+        flex-direction: column;
+        gap: 27px;
+        .footer_menu{
+            gap: 0px;
+            img{
+                margin-right: 30px;
+            }
+        }
+        .btn_content{
+            gap: 57px;
+            .button{
+                width: 130px;
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+}
+
+@media (max-width: 322px) {
+    header{
+        nav{
+            .nav__content{
+                .nav__menu{
+                    ul{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+    header{
+        .header_container{
+            .header_text-content{
+                h1{
+                    color: black;
+                }
+                p{
+                    color: #000;
+                }
+            }
+        }
+    }
+    
+    main{
+        .about_container{
+            .img_content{
+                flex-direction: column;
+                align-items: center;
+                .img1{
+                    max-width: 500px;
+                    height: 163px;
+                    .bottom{
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .info{
+                padding-left: 10px;
+            }
+        }
+        .plan_container{
+            .plan_cards{
+                width: 800px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+
+        .stories_container{
+            .stories_content{
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+
+        .form_container{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    footer{
+        .footer_container{
+            flex-direction: column;
+            gap: 30px;
+            .btn_content{
+                gap: 150px;
+            }
+        }
+    }
+}
